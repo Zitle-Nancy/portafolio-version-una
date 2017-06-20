@@ -5,7 +5,6 @@
 
 	 var cerrarHamburguesa = function(){
 	 	$('.hamburguesa').toggleClass('open');
-	 	// alert('open');
 	 }
 
 	
