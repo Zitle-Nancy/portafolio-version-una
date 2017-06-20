@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
 </head>
 <body>
 	<div class="container-fluid">
@@ -12,42 +13,26 @@
 			<header class="col-xs-2 menu">
 				<div class="row">
 					<div class='col-xs-offset-1 col-xs-11 col-md-offset-3 col-md-9'>
-						<div class="hamburguesa">
-				    		<div class="menu-hamburguesa" data-toggle="modal" data-target="#myModal">
-				    		</div>
-						</div>
+						<span id="menu-comprimido">&#9776;</span>
 					</div>
 				</div>
-				
 			</header>
 			<div class="col-xs-10">
 			lo demas
 			</div>
-		</div>
-		
-		
+		</div>	
 	</div>
 	<!-- creacion de modal -->
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		        <div class="modal-body lista">
-		       	<ul>
-		       		<li><a href="#" class="texto-grande">Acerca de mi</a></li>
-		       		<li><a href="#" class="texto-grande">Portafolio</a></li>
-		       		<li><a href="#" class="texto-grande">Contactos</a></li>
-		       	</ul>
-		       	<div>
-			      	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			        	<span aria-hidden="true">&times;</span>
-			        </button>
-		      	</div>
-		      </div>
-		    </div>
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+		  <div class="overlay-content">
+		    <a href="#">Acerca de mi</a>
+		    <a href="#">Mis trabajos</a>
+		    <a href="#">Mis habilidades</a>
+		    <a href="#">Contáctame</a>
 		  </div>
-		</div>
+		</div>		
 	<!-- fin de modal -->
-	
 	<script src='js/jquery-3.2.1.min.js'></script>
 	<script src='js/bootstrap.min.js'></script>
 	<script src='js/index.js'></script>
