@@ -4,15 +4,8 @@ body{
 	width: 100%;
 	height: 100%;
 }
-/*canvas{
-	background:#005f63;
-	width: 100%;
-	height: 630px;
-	border: solid 1px blue;
-}*/
-.col-xs-1{
+.menu{
 	background: linear-gradient(to right, rgba(26,169,157,0.9), rgba(0,95,99,0.9));
-	/*background:#005f63;*/
 	height: 100vh;
 }
 
