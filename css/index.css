@@ -7,6 +7,7 @@ body{
 .menu{
 	background: -webkit-linear-gradient(top, rgba(23,169,157,0.9) 0, rgba(0,95,99,0.9) 100%);
 	height: 100vh;
+    position: fixed;
 }
 #menu-comprimido{
 	font-size:50px;
@@ -52,23 +53,29 @@ body{
 .texto-centrado{
     text-align: center;
 }
+.texto-perfil{
+    top: 20px;
+}
 .foto{
-    width: 50%;
-    height: 200px;
+    width: 100%;
+    height: 25vh;
 }
-.iconos-redes{
+/*.iconos{
+    background: grey;
+    border-radius: 50%;
+    height: auto;
+}*/
+.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before{
+    font-size:3rem;
+    color: #632cb7;
+}
+.seccion-una{
+    height: 380px;
+}
+#habilidad, #texto-habilidad{
     display: inline-block;
-    width: 50px;
+}
+.seccion-dos{
     height: 50px;
-    background-color:#aa05ad;
-    border-radius: 30%;
 }
-.iconos-redes > img {
-    display: inline;
-    width: 60%;
-    height: 50px;   
-}
-/*diamante*/
 
-
-/*fin diamante*/
