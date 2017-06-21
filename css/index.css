@@ -78,4 +78,16 @@ body{
 .seccion-dos{
     height: 50px;
 }
+.color{
+    background-color: #7C3FC2;
+}
+.color-uno{
+    background-color: #FF9744;
+}
+.color-dos{
+    background-color: #30B5B0;
+}
+.color-cuatro{
+    background-color: purple;
+}
 
