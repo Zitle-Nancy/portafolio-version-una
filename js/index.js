@@ -10,6 +10,8 @@
 	var closeNav = function(){
 		document.getElementById("myNav").style.width = "0%";
 	}
+
+	
 	
 	$(document).ready(cargarPagina);
 })();
