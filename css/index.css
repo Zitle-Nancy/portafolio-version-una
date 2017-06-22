@@ -1,13 +1,17 @@
+/*@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);*/
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
+    background-color: #f7f7f7;
 }
 .menu{
-	background: -webkit-linear-gradient(top, rgba(23,169,157,0.9) 0, rgba(0,95,99,0.9) 100%);
+	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
 	height: 100vh;
     position: fixed;
+    background-color: #00b6b8;
 }
 #menu-comprimido{
 	font-size:50px;
@@ -50,33 +54,23 @@ body{
     font-size: 60px;
 }
 /*segunda seccion foto y letras*/
-.texto-centrado{
-    text-align: center;
-}
 .texto-perfil{
     top: 20px;
 }
 .foto{
-    width: 100%;
-    height: 25vh;
-}
-/*.iconos{
-    background: grey;
     border-radius: 50%;
-    height: auto;
-}*/
+    width: 100%;
+}
+.iconos{
+   margin: 15px;
+}
 .fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before{
     font-size:3rem;
-    color: #632cb7;
+    color: #129C97;
 }
-.seccion-una{
-    height: 380px;
-}
+
 #habilidad, #texto-habilidad{
     display: inline-block;
-}
-.seccion-dos{
-    height: 50px;
 }
 .color{
     background-color: #7C3FC2;
@@ -89,5 +83,33 @@ body{
 }
 .color-cuatro{
     background-color: purple;
+}
+
+/*letras*/
+span {
+  font-family: 'Lobster Two';
+  font-size: 1em;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
