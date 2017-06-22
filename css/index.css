@@ -58,11 +58,14 @@ body{
     top: 20px;
 }
 .foto{
-    border-radius: 50%;
+    border-radius: 30%;
     width: 100%;
 }
+.div-foto{
+    margin-bottom: 10px;
+}
 .iconos{
-   margin: 15px;
+    margin: 15px;
 }
 .fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before{
     font-size:3rem;
