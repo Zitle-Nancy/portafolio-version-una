@@ -216,3 +216,12 @@ body{
 .color-ocho{
     background:#d35400;
 }
+/*trabajos portafolio*/
+.trabajos-portafolio > img{
+    width: 100%;
+}
+.imagen-gris{
+    background-color: #c9bfbf;
+    border: solid white 2px;
+}
+/*fin de trabajo portafolio*/

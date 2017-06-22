@@ -1,6 +1,7 @@
 (function() {
 	page('/',index);
 	page('/habilidades', habilidades);
+	page('/trabajos',trabajos);
 
 	page();
 
@@ -20,6 +21,12 @@
 				width:$(this).attr('data-percent')
 			},1000);
 		});
+	}
+
+	function trabajos(){
+		$(".contenido").addClass("hidden");
+		$('#seccion-trabajos').removeClass("hidden");
+		$("#myNav").removeClass('nav-visible');
 	}
 
 	var efectoNombre = {
