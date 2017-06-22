@@ -220,7 +220,10 @@ body{
     width: 100%;
 }
 .panel-footer{
-    height: 80px;
+    height: 85px;
     background-color: #ddd4d4;
+}
+.panel-body{
+    cursor:pointer;
 }
 /*fin de trabajo portafolio*/
