@@ -11,6 +11,12 @@
 		$('#closeNav').click(closeNav);
 		//typed es un metodo de un objeto de jquery
 		$('.element').typed(efectoNombre);
+		//barras
+		$('.skillbar').each(function(){
+			$(this).find('.skillbar-bar').animate({
+				width:$(this).attr('data-percent')
+			},6000);
+		});
 	}
 
 	var openNav = function() {
