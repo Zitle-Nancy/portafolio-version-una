@@ -1,6 +1,4 @@
-
 (function() {
-
 	page('/',index);
 	page('/habilidades', habilidades);
 

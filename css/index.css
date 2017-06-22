@@ -1,11 +1,18 @@
-/*@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);*/
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Convergence');
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
     background-color: #f7f7f7;
+}
+.texto-perfil{
+    font-family: 'Convergence', sans-serif;
+    font-size: 2em;
+}
+.saludo{
+    color: #b7103f;
 }
 .menu{
 	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
@@ -81,9 +88,10 @@ body{
 }
 
 /*letras*/
-span {
+.nombre{
   font-family: 'Lobster Two';
   font-size: 1em;
+  color: #9d13c6;
 }
 
 .typed-cursor{
