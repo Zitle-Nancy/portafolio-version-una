@@ -219,8 +219,8 @@ body{
 .trabajos-portafolio > img{
     width: 100%;
 }
-.imagen-gris{
-    background-color: #c9bfbf;
-    border: solid white 2px;
+.panel-footer{
+    height: 80px;
+    background-color: #ddd4d4;
 }
 /*fin de trabajo portafolio*/
