@@ -63,7 +63,6 @@ body{
 .nav-visible{
     width: 100%;
 }
-
 /*segunda seccion foto y letras*/
 .texto-perfil{
     top: 20px;
@@ -78,7 +77,7 @@ body{
 .iconos{
     margin: 15px;
 }
-.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before{
+.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
     font-size:3rem;
     color: #129C97;
 }

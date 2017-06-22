@@ -22,13 +22,11 @@
 			},1000);
 		});
 	}
-
 	function trabajos(){
 		$(".contenido").addClass("hidden");
 		$('#seccion-trabajos').removeClass("hidden");
 		$("#myNav").removeClass('nav-visible');
 	}
-
 	var efectoNombre = {
 		strings: ["Nancy Zitle Juárez"],
 		typeSpeed: 100,
@@ -39,14 +37,7 @@
 		$('#closeNav').click(closeNav);
 		//typed es un metodo de un objeto de jquery
 		$('.element').typed(efectoNombre);
-		
-		// cambiar rutas
-		// page('/habilidades',habilidades)
-		// page('/trabajos', trabajos)
-		// page('/contactos',contactos)
-		// fin de rutas
 	}
-
 	var openNav = function() {
 		// revisar
 		$("#myNav").addClass('nav-visible');
