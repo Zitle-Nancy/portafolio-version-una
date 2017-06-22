@@ -14,9 +14,9 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-	font-size:50px;
-	cursor:pointer;
-	color: white;
+    font-size:50px;
+    cursor:pointer;
+    color: white;
 }
 .overlay {
     height: 100%;
@@ -53,6 +53,10 @@ body{
     right: 45px;
     font-size: 60px;
 }
+.nav-visible{
+    width: 100%;
+}
+
 /*segunda seccion foto y letras*/
 .texto-perfil{
     top: 20px;
