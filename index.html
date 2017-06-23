@@ -19,52 +19,51 @@
 				</div>
 				<div class="row text-center archivo">
 					<span>
-						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<i class="cursor fa fa-file-pdf-o" aria-hidden="true" id="archivo-pdf"></i>
 					</span>
 					<div>
-						<input class="btn btn-default btn-descarga" type="button" value="CV">
+						<a href="assets/cv/Nancy_Zitle.pdf" download="cv_Nancy_Zitle" class="cursor btn btn-default btn-descarga">
+						CV
+						</a>
 					</div>
+				</div>
+				<div class="row text-center iconos-redes">
+					<span>
+						<i class="cursor fa fa-twitter-square funcion-twitter" aria-hidden="true"></i>
+					</span>
+					<span>
+						<i class="cursor fa fa-github-square funcion-git" aria-hidden="true"></i>
+					</span>
+					<span>
+						<i class="cursor fa fa-linkedin-square funcion-link" aria-hidden="true">
+						</i>
+					</span>
 				</div>
 			</header>
 			<div class="col-xs-offset-2 col-xs-10">
 				<!-- seccion de nombre y foto -->
 				<section id="sobre-mi" class="contenido hidden">
-					<div class="row">
-						<h1><span class="element nombre"></span></h1>
-						<div class="col-xs-12 col-md-6">
+					<div class="row fila-yo">
+						<h1 class="text-center">
+							<span class="element nombre"></span>
+						</h1>
+						<div class="col-xs-12 col-md-5">
 							<div class="row div-foto">
-								<div class='col-xs-offset-3 col-xs-6 nose'>
-									<img src="assets/img/perfil.jpg" class="foto  img-responsive text-center">
-								</div>
+								<img src="assets/img/foto.jpg" class="foto text-center img-responsive">	
 							</div>	
-							<div class="row">
-								<!-- imagenes redes -->
-									<div class="text-center">
-										<span class="iconos">
-											<i class="fa fa-twitter tamano-iconos" aria-hidden="true"></i>
-										</span>
-										<span class="iconos">
-											<i class="fa fa-github tamano-iconos" aria-hidden="true"></i>
-										</span>
-										<span class="iconos">
-											<i class="fa fa-linkedin" aria-hidden="true"></i>
-										</span>
-									</div>
-								<!-- fin imagenes redes -->
-							</div>
 						</div>
-						<span class="text-justify col-xs-12 col-md-6 texto-perfil">
-							<p class="saludo">Hola</p>
-							Soy Front-end Developer Junior, me encanta pertenecer al mundo de la tecnologia porque me permite imaginar, pensar y crear, logrando en mi descubrir habilidades que desconozco.
+						<span class="text-justify col-xs-12 col-md-7 texto-perfil">
+							<p>¡Hola!</p>
+							Soy Front-end Developer Junior, me encanta pertenecer al mundo de la tecnologia porque espero llegar a un punto donde mi imaginacion concuerde con la innovación...
 						</span>
 					</div>
 				</section>
 				<!-- fin de seccion de nombre y foto -->
 				<!-- seccion de habilidades -->
 				<section id="seccion-habilidades" class="contenido hidden">
-					<div class="row">
+					<div class="row row-habilidades text-center">
 						<div class="col-xs-12">
-							<span id="habilidad">
+							<span>
 								<i class="fa fa-wrench" aria-hidden="true"></i>
 							</span>
 							<h2 id="texto-habilidad">Habilidades</h2>
@@ -156,48 +155,82 @@
 						</div>		  
 					</div>
 					<div class="row">
-						<div class="panel panel-success col-xs-12 col-md-6 ">
-						    <div class="panel-body trabajos-portafolio">
-						    	
-						    		<img src="assets/img/1.png">	
-						    	
+						<div class="col-xs-12 col-md-6 ">
+						    <div class="thumbnail trabajos-portafolio">
+						    	<img src="assets/img/1.png" alt="Proyectos">
 						    </div>
-						    <div class="panel-footer text-center">
-						    <strong>Lyft</strong><br>
-						    Replica de <a href="https://www.lyft.com/">lyft</a>, version móvil utilizando javaScript,Apis, CSS3 y HTML5.
+						    <div class="caption text-center">
+						    <h3><strong>Lyft</strong></h3>
+						    	<p>
+						    		Replica de <a href="https://www.lyft.com/">lyft</a>, version móvil utilizando javaScript,Apis, CSS3 y HTML5.
+						    	</p>
+						    	<p>
+						    	<a href="https://goo.gl/DfVHpP" class="btn btn-primary" role="button">
+						    		<i class="git-icon fa fa-github" aria-hidden="true"></i>
+						    	</a>
+						    		<a href="https://goo.gl/oqa6SL" class="btn btn-danger" role="button">
+						    		<i class="chrome-icon fa fa-chrome" aria-hidden="true"></i>
+						    		</a>
+						    	</p>
 						    </div>
 						</div>
-						<div class="panel panel-success col-xs-12 col-md-6">
-							
-							    <div class="panel-body trabajos-portafolio">
-							    	<img src="assets/img/2.png">		
-							    </div>
-						    
-						    <div class="panel-footer text-center">
-						    <strong>AppComidas</strong><br>
-						    Aplicacion de ubicaciones sobre algunos restaurantes. Realizado con jQuery, CSS3, HTML5 y Apis.
+						<div class="col-xs-12 col-md-6 ">
+						    <div class="thumbnail trabajos-portafolio">
+						    	<img src="assets/img/2.png" alt="Proyectos">
+						    </div>
+						    <div class="caption text-center">
+						    <h3><strong>appComida</strong></h3>
+						    	<p>
+						    		Aplicacion de ubicaciones sobre algunos restaurantes. Realizado con jQuery, CSS3, HTML5 y Apis.
+						    	</p>
+						    	<p>
+						    	<a href="https://goo.gl/ohL9v3" class="btn btn-primary" role="button">
+						    		<i class="git-icon fa fa-github" aria-hidden="true"></i>
+						    	</a>
+						    		<a href="https://goo.gl/dY7eK4" class="btn btn-danger" role="button">
+						    		<i class="chrome-icon fa fa-chrome" aria-hidden="true"></i>
+						    		</a>
+						    	</p>
 						    </div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="panel panel-success col-xs-12 col-md-6 ">
-						    <div class="panel-body trabajos-portafolio">
-						    	<img src="assets/img/3.png">
+						<div class="col-xs-12 col-md-6 ">
+						    <div class="thumbnail trabajos-portafolio">
+						    	<img src="assets/img/3.png" alt="Proyectos">
 						    </div>
-						    <div class="panel-footer text-center">
-						    <strong>AppLove</strong><br>
-						    Plataforma de descripcion sobre productos. Utilizando javaScript, CSS3 y HTML5.
+						    <div class="caption text-center">
+						    <h3><strong>AppLover</strong></h3>
+						    	<p>
+						    		Plataforma de descripcion sobre productos. Utilizando javaScript, CSS3 y HTML5.
+						    	</p>
+						    	<p>
+						    	<a href="https://goo.gl/HwJfh9" class="btn btn-primary" role="button">
+						    		<i class="git-icon fa fa-github" aria-hidden="true"></i>
+						    	</a>
+						    		<a href="https://goo.gl/gQV6a9" class="btn btn-danger" role="button">
+						    		<i class="chrome-icon fa fa-chrome" aria-hidden="true"></i>
+						    		</a>
+						    	</p>
 						    </div>
 						</div>
-						<div class="panel panel-success col-xs-12 col-md-6 imagen-gris">
-						    <div class="panel-body trabajos-portafolio">
-						    	
-						    		<img src="assets/img/4.png">
-						    	
+						<div class="col-xs-12 col-md-6 ">
+						    <div class="thumbnail trabajos-portafolio">
+						    	<img src="assets/img/4.png" alt="Proyectos">
 						    </div>
-						    <div class="panel-footer text-center">
-						    <strong>LabCar</strong><br>
-						    Proyecto de Laboratoria. Realizado con javaScript, CSS3 y HTML5.
+						    <div class="caption text-center">
+						    <h3><strong>LabCar</strong></h3>
+						    	<p>
+						    		Proyecto de Laboratoria. Realizado con javaScript, CSS3 y HTML5.
+						    	</p>
+						    	<p>
+						    	<a href="https://goo.gl/r85zbo" class="btn btn-primary" role="button">
+						    		<i class="git-icon fa fa-github" aria-hidden="true"></i>
+						    	</a>
+						    		<a href="https://goo.gl/ZqcB3x" class="btn btn-danger" role="button">
+						    		<i class="chrome-icon fa fa-chrome" aria-hidden="true"></i>
+						    		</a>
+						    	</p>
 						    </div>
 						</div>
 					</div>

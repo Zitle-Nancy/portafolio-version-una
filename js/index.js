@@ -3,7 +3,6 @@
 	page('/habilidades', habilidades);
 	page('/proyectos',trabajos);
 	page('/contactame',contactame);
-
 	page();
 
 	function index(){
@@ -43,6 +42,9 @@
 		$('#closeNav').click(closeNav);
 		//typed es un metodo de un objeto de jquery
 		$('.element').typed(efectoNombre);
+		$('.funcion-twitter').click(enviarTwitter);
+		$('.funcion-git').click(enviarGit);
+		$('.funcion-link').click(enviarLink);
 	}
 	var openNav = function() {
 		// revisar
@@ -51,7 +53,15 @@
 	var closeNav = function(){
 		$("#myNav").removeClass('nav-visible');
 	}
-
+	var enviarTwitter = function(){
+		location.href = "https://goo.gl/2jGyz5";
+	}
+	var enviarGit = function(){
+		location.href = "https://goo.gl/rSXccU";
+	}
+	var enviarLink = function(){
+		location.href = "https://goo.gl/Uw2bt2";
+	}
 	
 	
 	$(document).ready(cargarPagina);

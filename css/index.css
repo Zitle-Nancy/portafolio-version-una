@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Convergence');
+@import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
 body{
 	margin: 0;
@@ -8,12 +9,21 @@ body{
 	height: 100%;
     background-color: #f7f7f7;
 }
+.cursor{
+    cursor: pointer;
+}
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
     font-size: 2em;
+    margin-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
-.saludo{
-    color: #b7103f;
+@media (max-width: 600px) {
+  .texto-perfil {
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
 }
 .menu{
 	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
@@ -22,9 +32,14 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-    font-size:50px;
+    font-size:5em;
     cursor:pointer;
     color: white;
+}
+@media (max-width: 600px) {
+  #menu-comprimido{
+    
+  }
 }
 .overlay {
     height: 100%;
@@ -65,12 +80,21 @@ body{
     width: 100%;
 }
 /*segunda seccion foto y letras*/
-.texto-perfil{
-    top: 20px;
+#sobre-mi{
+    margin-top: 60px;
 }
 .foto{
     border-radius: 30%;
-    width: 100%;
+    width: 75%;
+    height: 60vh;
+    margin-left: 70px;
+}
+@media (max-width: 600px) {
+  .foto {
+    width: 60%;
+    height: 30vh;
+    margin-left: 60px;
+  }
 }
 .div-foto{
     margin-bottom: 10px;
@@ -82,16 +106,36 @@ body{
     font-size:3rem;
     color: #129C97;
 }
-
+.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before{
+    font-size: 6rem;
+    color: white;
+}
+/*habilidades*/
 #habilidad, #texto-habilidad{
     display: inline-block;
 }
-
+.row-habilidades{
+    margin-bottom: 40px;
+}
+#seccion-habilidades{
+    margin-top: 180px;
+}
+@media (max-width: 1024px) {
+  #seccion-habilidades{
+    margin-top: 80px;
+  }
+}
+/*fin habilidades*/
 /*letras*/
 .nombre{
   font-family: 'Lobster Two';
-  font-size: 1em;
+  font-size: 2em;
   color: #9d13c6;
+}
+@media (max-width: 600px) {
+  .nombre {
+    font-size: 1em;
+  }
 }
 
 .typed-cursor{
@@ -157,7 +201,6 @@ body{
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
 }
-
 .skillbar-title span {
     display:block;
     background:rgba(0, 0, 0, 0.1);
@@ -220,12 +263,13 @@ body{
 .trabajos-portafolio > img{
     width: 100%;
 }
-.panel-footer{
-    height: 85px;
-    background-color: #ddd4d4;
+.git-icon:before{
+    color: black;
+    /*background-color: black;*/
 }
-.panel-body{
-    cursor:pointer;
+.fa-chrome:before {
+    font-size: 2em;
+    color: black;
 }
 /*fin de trabajo portafolio*/
 /*contactame*/
@@ -237,18 +281,31 @@ body{
     font-family: 'Actor', sans-serif;
 }
 .fa-file-pdf-o:before{
-    color: white;
+    color: red;
     font-size: 5em;
 }
+@media (max-width: 600px) {
+  .fa-file-pdf-o{
+   font-size: 4em;
+  }
+}
 .archivo{
-    height: 100%;
+    margin-top: 30px;
+}
+
+.iconos-redes{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
 }
 .btn-descarga{
-    width: 100%;
+    width: 30%;
     margin-top: 10px;
+    background-color:#dbd0d0;
+}
+@media (max-width: 600px) {
+  .btn-descarga{
+    width: 80%;
+  }
 }
 /*fin de contactame*/
