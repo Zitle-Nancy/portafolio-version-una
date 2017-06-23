@@ -236,4 +236,19 @@ body{
     font-family: 'Source Code Pro', monospace;
     font-family: 'Actor', sans-serif;
 }
+.fa-file-pdf-o:before{
+    color: white;
+    font-size: 5em;
+}
+.archivo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.btn-descarga{
+    width: 100%;
+    margin-top: 10px;
+}
 /*fin de contactame*/
