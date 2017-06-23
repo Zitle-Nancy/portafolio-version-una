@@ -4,22 +4,258 @@
 	<title>Portafolio Nancy Zitle</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<header class="col-xs-1 menu">
+			<header class="col-xs-2 menu">
+				<div class="row">
+					<div class='text-center'>
+						<span id="menu-comprimido">&#9776;</span>
+					</div>
+				</div>
+				<div class="row text-center archivo">
+					<span>
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+					</span>
+					<div>
+						<input class="btn btn-default btn-descarga" type="button" value="CV">
+					</div>
+				</div>
 			</header>
-			<div class="col-xs-11">
-			lo demas
+			<div class="col-xs-offset-2 col-xs-10">
+				<!-- seccion de nombre y foto -->
+				<section id="sobre-mi" class="contenido hidden">
+					<div class="row">
+						<h1><span class="element nombre"></span></h1>
+						<div class="col-xs-12 col-md-6">
+							<div class="row div-foto">
+								<div class='col-xs-offset-3 col-xs-6 nose'>
+									<img src="assets/img/perfil.jpg" class="foto  img-responsive text-center">
+								</div>
+							</div>	
+							<div class="row">
+								<!-- imagenes redes -->
+									<div class="text-center">
+										<span class="iconos">
+											<i class="fa fa-twitter tamano-iconos" aria-hidden="true"></i>
+										</span>
+										<span class="iconos">
+											<i class="fa fa-github tamano-iconos" aria-hidden="true"></i>
+										</span>
+										<span class="iconos">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</span>
+									</div>
+								<!-- fin imagenes redes -->
+							</div>
+						</div>
+						<span class="text-justify col-xs-12 col-md-6 texto-perfil">
+							<p class="saludo">Hola</p>
+							Soy Front-end Developer Junior, me encanta pertenecer al mundo de la tecnologia porque me permite imaginar, pensar y crear, logrando en mi descubrir habilidades que desconozco.
+						</span>
+					</div>
+				</section>
+				<!-- fin de seccion de nombre y foto -->
+				<!-- seccion de habilidades -->
+				<section id="seccion-habilidades" class="contenido hidden">
+					<div class="row">
+						<div class="col-xs-12">
+							<span id="habilidad">
+								<i class="fa fa-wrench" aria-hidden="true"></i>
+							</span>
+							<h2 id="texto-habilidad">Habilidades</h2>
+						</div>		  
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix " data-percent="60%">
+								<div class="skillbar-title color-ocho	"><span class="lenguajes">HTML5
+									</span>
+								</div>
+								<div class="skillbar-bar color-uno">
+								</div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix" data-percent="60%">
+								<div class="skillbar-title color-ocho"><span class="lenguajes">CSS3</span></div>
+								<div class="skillbar-bar color-uno"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix" data-percent="60%">
+								<div class="skillbar-title color-dos">
+								<span class="lenguajes">Metodología Agil</span>
+								</div>
+								<div class="skillbar-bar color-siete"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix " data-percent="60%">
+								<div class="skillbar-title color-dos">
+									<span class="lenguajes">Git</span>
+								</div>
+								<div class="skillbar-bar color-siete"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix " data-percent="60%">
+								<div class="skillbar-title color-seis">
+									<span class="lenguajes">JavaScript</span>
+								</div>
+								<div class="skillbar-bar color-tres"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix" data-percent="60%">
+								<div class="skillbar-title color-seis"><span class="lenguajes">Jquery</span></div>
+								<div class="skillbar-bar color-tres"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix " data-percent="25%">
+								<div class="skillbar-title color-cinco"><span class="lenguajes">PHP</span></div>
+								<div class="skillbar-bar color-cuatro"></div>
+								<div class="skill-bar-percent">25%</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<div class="skillbar clearfix " data-percent="25%">
+								<div class="skillbar-title color-cinco"><span class="lenguajes">MySQL</span></div>
+								<div class="skillbar-bar color-cuatro"></div>
+								<div class="skill-bar-percent">25%</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- fin de habilidades -->
+				<!-- trabajos -->
+				<section id="seccion-trabajos" class="contenido hidden">
+					<div class="row">
+						<div class="col-xs-12">
+							<span id="habilidad">
+								<i class="fa fa-code" aria-hidden="true"></i>
+							</span>
+							<h2 id="texto-habilidad">Mis Proyectos</h2>
+						</div>		  
+					</div>
+					<div class="row">
+						<div class="panel panel-success col-xs-12 col-md-6 ">
+						    <div class="panel-body trabajos-portafolio">
+						    	
+						    		<img src="assets/img/1.png">	
+						    	
+						    </div>
+						    <div class="panel-footer text-center">
+						    <strong>Lyft</strong><br>
+						    Replica de <a href="https://www.lyft.com/">lyft</a>, version móvil utilizando javaScript,Apis, CSS3 y HTML5.
+						    </div>
+						</div>
+						<div class="panel panel-success col-xs-12 col-md-6">
+							
+							    <div class="panel-body trabajos-portafolio">
+							    	<img src="assets/img/2.png">		
+							    </div>
+						    
+						    <div class="panel-footer text-center">
+						    <strong>AppComidas</strong><br>
+						    Aplicacion de ubicaciones sobre algunos restaurantes. Realizado con jQuery, CSS3, HTML5 y Apis.
+						    </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="panel panel-success col-xs-12 col-md-6 ">
+						    <div class="panel-body trabajos-portafolio">
+						    	<img src="assets/img/3.png">
+						    </div>
+						    <div class="panel-footer text-center">
+						    <strong>AppLove</strong><br>
+						    Plataforma de descripcion sobre productos. Utilizando javaScript, CSS3 y HTML5.
+						    </div>
+						</div>
+						<div class="panel panel-success col-xs-12 col-md-6 imagen-gris">
+						    <div class="panel-body trabajos-portafolio">
+						    	
+						    		<img src="assets/img/4.png">
+						    	
+						    </div>
+						    <div class="panel-footer text-center">
+						    <strong>LabCar</strong><br>
+						    Proyecto de Laboratoria. Realizado con javaScript, CSS3 y HTML5.
+						    </div>
+						</div>
+					</div>
+					
+				</section>
+				<!-- fin de trabajos -->
+				<!-- contactos -->
+				<section id="contactame" class="contenido hidden">
+					<div class="jumbotron">
+						<h2 class="titulo-contactame text-center">Contáctame</h2>
+						<form class="form-horizontal">
+						  <div class="form-group">
+						    <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+						    <div class="col-sm-10">
+						      <input type="password" class="form-control" id="nombre" placeholder="Nombre">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="correo" class="col-sm-2 control-label">Email</label>
+						    <div class="col-sm-10">
+						      <input type="email" class="form-control" id="correo" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <textarea class="form-control" rows="3" placeholder="Comentarios"></textarea>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-sm-offset-2 col-sm-10">
+						      <button type="submit" class="btn btn-primary">Enviar</button>
+						    </div>
+						  </div>
+						</form>
+					</div>
+				</section>
+				<!-- fin de contactos -->
 			</div>
 		</div>
-		
-		
 	</div>
-	
+	<!-- creacion de modal -->
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+		  <div class="overlay-content">
+		    <a href="/">Sobre mí</a>
+		    <a href="/habilidades">Mis habilidades</a>
+		    <a href="/proyectos">
+		    	Mis Proyectos
+		    </a>
+		    <a href="/contactame">Contáctame</a>
+		  </div>
+		</div>		
+	<!-- fin de modal -->
 	<script src='js/jquery-3.2.1.min.js'></script>
 	<script src='js/bootstrap.min.js'></script>
+	<script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js'>
+	</script>
 	<script src='js/index.js'></script>
 </body>
 </html>
