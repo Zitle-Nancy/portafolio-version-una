@@ -110,11 +110,22 @@ body{
     font-size: 6rem;
     color: white;
 }
-
+/*habilidades*/
 #habilidad, #texto-habilidad{
     display: inline-block;
 }
-
+.row-habilidades{
+    margin-bottom: 40px;
+}
+#seccion-habilidades{
+    margin-top: 180px;
+}
+@media (max-width: 1024px) {
+  #seccion-habilidades{
+    margin-top: 80px;
+  }
+}
+/*fin habilidades*/
 /*letras*/
 .nombre{
   font-family: 'Lobster Two';
@@ -252,12 +263,13 @@ body{
 .trabajos-portafolio > img{
     width: 100%;
 }
-.panel-footer{
-    height: 85px;
-    background-color: #ddd4d4;
+.git-icon:before{
+    color: black;
+    /*background-color: black;*/
 }
-.panel-body{
-    cursor:pointer;
+.fa-chrome:before {
+    font-size: 2em;
+    color: black;
 }
 /*fin de trabajo portafolio*/
 /*contactame*/
