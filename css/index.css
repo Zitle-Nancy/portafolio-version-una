@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Convergence');
+@import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
 body{
 	margin: 0;
@@ -11,10 +12,17 @@ body{
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
     font-size: 2em;
+    margin-top: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
-.saludo{
-    color: #b7103f;
+@media (max-width: 600px) {
+  .texto-perfil {
+    font-size: 1.2em;
+    margin-top: 15px;
+  }
 }
+
 .menu{
 	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
 	height: 100vh;
@@ -65,12 +73,20 @@ body{
     width: 100%;
 }
 /*segunda seccion foto y letras*/
-.texto-perfil{
-    top: 20px;
+#sobre-mi{
+    margin-top: 60px;
 }
 .foto{
     border-radius: 30%;
-    width: 100%;
+    width: 75%;
+    height: 60vh;
+    margin-left: 70px;
+}
+@media (max-width: 600px) {
+  .foto {
+    height: 30vh;
+    margin-left: 32px;
+  }
 }
 .div-foto{
     margin-bottom: 10px;
@@ -90,8 +106,13 @@ body{
 /*letras*/
 .nombre{
   font-family: 'Lobster Two';
-  font-size: 1em;
+  font-size: 2em;
   color: #9d13c6;
+}
+@media (max-width: 600px) {
+  .nombre {
+    font-size: 1em;
+  }
 }
 
 .typed-cursor{
@@ -157,7 +178,6 @@ body{
     border-top-left-radius:3px;
     border-bottom-left-radius:3px;
 }
-
 .skillbar-title span {
     display:block;
     background:rgba(0, 0, 0, 0.1);
@@ -237,7 +257,7 @@ body{
     font-family: 'Actor', sans-serif;
 }
 .fa-file-pdf-o:before{
-    color: white;
+    color: red;
     font-size: 5em;
 }
 .archivo{
