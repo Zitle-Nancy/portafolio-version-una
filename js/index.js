@@ -1,7 +1,8 @@
 (function() {
 	page('/',index);
 	page('/habilidades', habilidades);
-	page('/trabajos',trabajos);
+	page('/proyectos',trabajos);
+	page('/contactame',contactame);
 
 	page();
 
@@ -25,6 +26,11 @@
 	function trabajos(){
 		$(".contenido").addClass("hidden");
 		$('#seccion-trabajos').removeClass("hidden");
+		$("#myNav").removeClass('nav-visible');
+	}
+	function contactame() {
+		$(".contenido").addClass("hidden");
+		$('#contactame').removeClass("hidden");
 		$("#myNav").removeClass('nav-visible');
 	}
 	var efectoNombre = {
