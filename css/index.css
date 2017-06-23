@@ -9,6 +9,9 @@ body{
 	height: 100%;
     background-color: #f7f7f7;
 }
+.cursor{
+    cursor: pointer;
+}
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
     font-size: 2em;
@@ -22,7 +25,6 @@ body{
     margin-top: 15px;
   }
 }
-
 .menu{
 	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
 	height: 100vh;
@@ -30,9 +32,14 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-    font-size:50px;
+    font-size:5em;
     cursor:pointer;
     color: white;
+}
+@media (max-width: 600px) {
+  #menu-comprimido{
+    
+  }
 }
 .overlay {
     height: 100%;
@@ -84,8 +91,9 @@ body{
 }
 @media (max-width: 600px) {
   .foto {
+    width: 60%;
     height: 30vh;
-    margin-left: 32px;
+    margin-left: 60px;
   }
 }
 .div-foto{
@@ -97,6 +105,10 @@ body{
 .fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
     font-size:3rem;
     color: #129C97;
+}
+.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before{
+    font-size: 6rem;
+    color: white;
 }
 
 #habilidad, #texto-habilidad{
@@ -260,15 +272,28 @@ body{
     color: red;
     font-size: 5em;
 }
+@media (max-width: 600px) {
+  .fa-file-pdf-o{
+   font-size: 4em;
+  }
+}
 .archivo{
-    height: 100%;
+    margin-top: 30px;
+}
+
+.iconos-redes{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
 }
 .btn-descarga{
-    width: 100%;
+    width: 30%;
     margin-top: 10px;
+    background-color:#dbd0d0;
+}
+@media (max-width: 600px) {
+  .btn-descarga{
+    width: 80%;
+  }
 }
 /*fin de contactame*/
