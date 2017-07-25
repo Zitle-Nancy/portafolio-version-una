@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,600,600i|Oswald');
 
 body{
 	margin: 0;
@@ -18,8 +19,12 @@ body{
 }
 .texto-cv > a{
     font-size: 3rem;
+    font-family: 'Francois One';
     /*color: white;*/
     color: #33cccc;
+}
+.titulo{
+    font-family: 'Francois One';
 }
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
@@ -40,22 +45,18 @@ body{
 .menu{
 	height: 100vh;
     position: fixed;
-    /*background-color: #00b6b8;*/
     background-color: #2C3E50;
-    /*background-color: rgba(91, 155,213,9);*/
 }
 #menu-comprimido{
     font-size:4.5rem;
     cursor:pointer;
-    /*color: white;*/
     color: #33CCCC;
-    /*color: #ECF0F1;*/
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   #menu-comprimido{
     
   }
-}
+}*/
 .overlay {
     height: 100%;
     width: 0;
@@ -98,12 +99,13 @@ body{
 /*segunda seccion foto y letras*/
 #sobre-mi{
     margin-top: 60px;
+    background-color: #C7D5D8;
 }
 .foto{
-    border-radius: 30%;
+    border-radius: 10%;
     width: 75%;
     height: 60vh;
-    margin-left: 70px;
+    margin-left: 20px;
 }
 @media (max-width: 600px) {
   .foto {
@@ -133,6 +135,12 @@ body{
 /*habilidades*/
 #habilidad, #texto-habilidad{
     display: inline-block;
+}
+.en_linea{
+    display: inline-block;
+}
+.descripcion{
+    font-family: 'Oswald', sans-serif;
 }
 .row-habilidades{
     margin-bottom: 40px;
