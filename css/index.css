@@ -2,15 +2,24 @@
 @import url('https://fonts.googleapis.com/css?family=Convergence');
 @import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-    background-color: #f7f7f7;
+    /*background-color: #f7f7f7;*/
+    background-color: #ECF0F1;
+    /*background-color: rgba(229, 229, 229, 0.7);*/
 }
 .cursor{
     cursor: pointer;
+}
+.texto-cv > a{
+    font-size: 3rem;
+    /*color: white;*/
+    color: #33cccc;
 }
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
@@ -25,16 +34,22 @@ body{
     margin-top: 15px;
   }
 }
+.margin-bottom{
+    margin-bottom: 30px;
+}
 .menu{
-	/*background: -webkit-linear-gradient(top, rgba(0,182,184,0.9) 0, rgba(0,95,99,0.9) 100%);*/
 	height: 100vh;
     position: fixed;
-    background-color: #00b6b8;
+    /*background-color: #00b6b8;*/
+    background-color: #2C3E50;
+    /*background-color: rgba(91, 155,213,9);*/
 }
 #menu-comprimido{
-    font-size:5em;
+    font-size:4.5rem;
     cursor:pointer;
-    color: white;
+    /*color: white;*/
+    color: #33CCCC;
+    /*color: #ECF0F1;*/
 }
 @media (max-width: 600px) {
   #menu-comprimido{
@@ -48,7 +63,8 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background: -webkit-linear-gradient(top, rgba(23,169,157,0.9) 0, rgba(0,95,99,0.9) 100%);
+    background: -webkit-linear-gradient(top, #33CCCC 0, rgba(0,95,99,0.9) 100%);
+    /*background: -webkit-linear-gradient(top, rgba(23,169,157,0.9) 0, rgba(0,95,99,0.9) 100%);*/
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -102,13 +118,17 @@ body{
 .iconos{
     margin: 15px;
 }
-.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
-    font-size:3rem;
-    color: #129C97;
-}
+
 .fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before{
-    font-size: 6rem;
-    color: white;
+    font-size: 4.5rem;
+    /*color: white;*/
+    /*color: #ECF0F1;*/
+    color: #33CCCC;
+}
+.fa-download:before{
+    font-size: 4.5rem;
+    /*color:#ECF0F1;*/
+    color: #33CCCC;
 }
 /*habilidades*/
 #habilidad, #texto-habilidad{
@@ -130,7 +150,7 @@ body{
 .nombre{
   font-family: 'Lobster Two';
   font-size: 2em;
-  color: #9d13c6;
+  color: #009696;
 }
 @media (max-width: 600px) {
   .nombre {
@@ -281,7 +301,9 @@ body{
     font-family: 'Actor', sans-serif;
 }
 .fa-file-pdf-o:before{
-    color: red;
+    /*color: red;*/
+    color: #33CCCC;
+
     font-size: 5em;
 }
 @media (max-width: 600px) {
@@ -301,7 +323,10 @@ body{
 .btn-descarga{
     width: 30%;
     margin-top: 10px;
-    background-color:#dbd0d0;
+    background-color: #ACBDC5;
+    border:solid 1px #ACBDC5;
+    color:#2C3E50;
+    /*background-color:#dbd0d0;*/
 }
 @media (max-width: 600px) {
   .btn-descarga{
