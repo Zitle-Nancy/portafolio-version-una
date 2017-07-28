@@ -2,22 +2,44 @@
 @import url('https://fonts.googleapis.com/css?family=Convergence');
 @import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,600,600i|Oswald');
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-    background-color: #f7f7f7;
+    background-color: #ECF0F1;
 }
 .cursor{
     cursor: pointer;
 }
+.titulo{
+    font-family: 'Francois One';
+    font-size: 4rem;
+}
+.formatos-iconos{
+    color:#1D314C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tooltip-inner{
+    white-space: nowrap;
+    max-width: none;
+}
+.en-linea{
+    display: inline-block;
+}
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
     font-size: 2em;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-right: 60px;
     padding-left: 60px;
+}
+.titulo > a{
+    font-size: 5.5rem;
+    text-decoration: none;
 }
 @media (max-width: 600px) {
   .texto-perfil {
@@ -32,15 +54,10 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-    font-size:5em;
+    font-size:6rem;
     cursor:pointer;
-    color: white;
 }
-@media (max-width: 600px) {
-  #menu-comprimido{
-    
-  }
-}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -82,6 +99,7 @@ body{
 /*segunda seccion foto y letras*/
 #sobre-mi{
     margin-top: 60px;
+    /*background-color:rgba(199,213,216,.4);*/
 }
 .foto{
     border-radius: 30%;
@@ -97,28 +115,29 @@ body{
   }
 }
 .div-foto{
-    margin-bottom: 10px;
+    margin-bottom: 50%;
 }
-.iconos{
-    margin: 15px;
-}
-.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
-    font-size:3rem;
-    color: #129C97;
-}
-.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before{
+
+.fa-twitter-square:before, .fa-github-square:before, 
+.fa-linkedin-square:before, .fa-download:before,
+.fa-wrench:before, .fa-code:before{
     font-size: 6rem;
-    color: white;
+    /*margin: 0 15px 0 15px;*/
+}
+.padding-laterales{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 /*habilidades*/
-#habilidad, #texto-habilidad{
-    display: inline-block;
+#habilidad, .texto-habilidad{
+    display: inline;
+    margin-left: 10px;
 }
 .row-habilidades{
     margin-bottom: 40px;
 }
-#seccion-habilidades{
-    margin-top: 180px;
+.top-seccion{
+    margin-top: 30px;
 }
 @media (max-width: 1024px) {
   #seccion-habilidades{
@@ -130,7 +149,11 @@ body{
 .nombre{
   font-family: 'Lobster Two';
   font-size: 2em;
-  color: #9d13c6;
+  /*color: #4C3A15;*/
+  color: #5e0684;
+}
+.fuente-parrafos{
+    font-family: 'Oswald', sans-serif;
 }
 @media (max-width: 600px) {
   .nombre {
@@ -169,7 +192,7 @@ body{
     display:block;
     margin-bottom:15px;
     width:100%;
-    background:#eee;
+    background:#cfc7c7;
     height:35px;
     border-radius:3px;
     -moz-border-radius:3px;
@@ -265,6 +288,7 @@ body{
 }
 .git-icon:before{
     color: black;
+    font-size: 2em;
     /*background-color: black;*/
 }
 .fa-chrome:before {
@@ -273,22 +297,7 @@ body{
 }
 /*fin de trabajo portafolio*/
 /*contactame*/
-.titulo-contactame{
-    font-size: 4em;
-    font-family: 'Convergence', sans-serif;
-    font-family: 'Vollkorn', serif;
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Actor', sans-serif;
-}
-.fa-file-pdf-o:before{
-    color: red;
-    font-size: 5em;
-}
-@media (max-width: 600px) {
-  .fa-file-pdf-o{
-   font-size: 4em;
-  }
-}
+
 .archivo{
     margin-top: 30px;
 }

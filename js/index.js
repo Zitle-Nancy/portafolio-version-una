@@ -35,7 +35,7 @@
 	var efectoNombre = {
 		strings: ["Nancy Zitle Juárez"],
 		typeSpeed: 100,
-		loop: true
+		loop: false
 	}
 	var cargarPagina = function(){
 		$('#menu-comprimido').click(openNav);
@@ -45,6 +45,8 @@
 		$('.funcion-twitter').click(enviarTwitter);
 		$('.funcion-git').click(enviarGit);
 		$('.funcion-link').click(enviarLink);
+  		$('[data-toggle="tooltip"]').tooltip();
+  		
 	}
 	var openNav = function() {
 		// revisar
@@ -66,5 +68,3 @@
 	
 	$(document).ready(cargarPagina);
 })();
-	
-
