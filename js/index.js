@@ -35,7 +35,7 @@
 	var efectoNombre = {
 		strings: ["Nancy Zitle Juárez"],
 		typeSpeed: 100,
-		loop: true
+		loop: false
 	}
 	var cargarPagina = function(){
 		$('#menu-comprimido').click(openNav);

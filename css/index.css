@@ -37,9 +37,8 @@ body{
     padding-right: 60px;
     padding-left: 60px;
 }
-.texto-cv > a{
-    font-size: 3rem;
-    font-family: 'Francois One';
+.titulo > a{
+    font-size: 5.5rem;
 }
 @media (max-width: 600px) {
   .texto-perfil {
@@ -54,7 +53,7 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-    font-size:4.5rem;
+    font-size:6rem;
     cursor:pointer;
 }
 
@@ -117,25 +116,27 @@ body{
 .div-foto{
     margin-bottom: 10px;
 }
-/*.iconos{
-    margin: 15px;
-}*/
-/*.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
-    font-size:5rem;
-}*/
-.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before, .fa-download:before{
-    font-size: 5rem;
+
+.fa-twitter-square:before, .fa-github-square:before, 
+.fa-linkedin-square:before, .fa-download:before,
+.fa-wrench:before, .fa-code:before{
+    font-size: 6rem;
     /*margin: 0 15px 0 15px;*/
 }
+.padding-laterales{
+    padding-left: 5px;
+    padding-right: 5px;
+}
 /*habilidades*/
-#habilidad, #texto-habilidad{
-    display: inline-block;
+#habilidad, .texto-habilidad{
+    display: inline;
+    margin-left: 10px;
 }
 .row-habilidades{
     margin-bottom: 40px;
 }
-#seccion-habilidades{
-    margin-top: 180px;
+.top-seccion{
+    margin-top: 30px;
 }
 @media (max-width: 1024px) {
   #seccion-habilidades{
@@ -148,6 +149,9 @@ body{
   font-family: 'Lobster Two';
   font-size: 2em;
   color: #4C3A15;
+}
+.fuente-parrafos{
+    font-family: 'Oswald', sans-serif;
 }
 @media (max-width: 600px) {
   .nombre {
@@ -282,6 +286,7 @@ body{
 }
 .git-icon:before{
     color: black;
+    font-size: 2em;
     /*background-color: black;*/
 }
 .fa-chrome:before {
@@ -290,13 +295,6 @@ body{
 }
 /*fin de trabajo portafolio*/
 /*contactame*/
-.titulo-contactame{
-    font-size: 4em;
-    font-family: 'Convergence', sans-serif;
-    font-family: 'Vollkorn', serif;
-    font-family: 'Source Code Pro', monospace;
-    font-family: 'Actor', sans-serif;
-}
 .fa-file-pdf-o:before{
     color: red;
     font-size: 5em;

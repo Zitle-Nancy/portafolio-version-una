@@ -30,11 +30,7 @@
 						</i>
 					</span>
 					</div>
-
 					<div class="row text-center archivo" data-toggle="tooltip" data-placement="right" title="Descarga mi CV">
-						<!-- <span>
-						<i class="cursor fa fa-download formatos-iconos" aria-hidden="true"></i>
-						</span> -->
 						<p class="titulo">
 							<a href="assets/cv/Nancy_Zitle.pdf" download="cv_Nancy_Zitle" class="formatos-iconos">
 								CV
@@ -57,19 +53,19 @@
 						</div>
 						<span class="text-justify col-xs-12 col-md-7 texto-perfil">
 							<p class="titulo formatos-iconos">¡Hola!</p>
-							Soy Front-end Developer Junior, me encanta pertenecer al mundo de la tecnologia porque espero llegar a un punto donde mi imaginacion concuerde con la innovación...
+							<p class="fuente-parrafos">Soy Front-end Developer Junior, me encanta pertenecer al mundo de la tecnologia porque espero llegar a un punto donde mi imaginacion concuerde con la innovación...</p>
 						</span>
 					</div>
 				</section>
 				<!-- fin de seccion de nombre y foto -->
 				<!-- seccion de habilidades -->
-				<section id="seccion-habilidades" class="contenido hidden">
+				<section id="seccion-habilidades" class="top-seccion contenido hidden">
 					<div class="row row-habilidades text-center">
 						<div class="col-xs-12">
 							<span>
-								<i class="fa fa-wrench" aria-hidden="true"></i>
+								<i class="fa fa-wrench formatos-iconos padding-laterales" aria-hidden="true"></i>
 							</span>
-							<h2 id="texto-habilidad">Habilidades</h2>
+							<h2 class="texto-habilidad titulo">Habilidades</h2>
 						</div>		  
 					</div>
 					<div class="row">
@@ -148,13 +144,13 @@
 				</section>
 				<!-- fin de habilidades -->
 				<!-- trabajos -->
-				<section id="seccion-trabajos" class="contenido hidden">
+				<section id="seccion-trabajos" class="contenido hidden text-center top-seccion">
 					<div class="row">
 						<div class="col-xs-12">
 							<span id="habilidad">
-								<i class="fa fa-code" aria-hidden="true"></i>
+								<i class="fa fa-code formatos-iconos" aria-hidden="true"></i>
 							</span>
-							<h2 id="texto-habilidad">Mis Proyectos</h2>
+							<h2 class=" texto-habilidad titulo">Mis Proyectos</h2>
 						</div>		  
 					</div>
 					<div class="row">
@@ -163,8 +159,8 @@
 						    	<img src="assets/img/1.png" alt="Proyectos">
 						    </div>
 						    <div class="caption text-center">
-						    <h3><strong>Lyft</strong></h3>
-						    	<p>
+						    <h3 class="titulo"><strong>Lyft</strong></h3>
+						    	<p class="fuente-parrafos">
 						    		Replica de <a href="https://www.lyft.com/">lyft</a>, version móvil utilizando javaScript,Apis, CSS3 y HTML5.
 						    	</p>
 						    	<p>
@@ -182,8 +178,8 @@
 						    	<img src="assets/img/2.png" alt="Proyectos">
 						    </div>
 						    <div class="caption text-center">
-						    <h3><strong>appComida</strong></h3>
-						    	<p>
+						    <h3 class="titulo"><strong>appComida</strong></h3>
+						    	<p class="fuente-parrafos">
 						    		Aplicacion de ubicaciones sobre algunos restaurantes. Realizado con jQuery, CSS3, HTML5 y Apis.
 						    	</p>
 						    	<p>
@@ -203,8 +199,8 @@
 						    	<img src="assets/img/3.png" alt="Proyectos">
 						    </div>
 						    <div class="caption text-center">
-						    <h3><strong>AppLover</strong></h3>
-						    	<p>
+						    <h3 class="titulo"><strong>AppLover</strong></h3>
+						    	<p class="fuente-parrafos">
 						    		Plataforma de descripcion sobre productos. Utilizando javaScript, CSS3 y HTML5.
 						    	</p>
 						    	<p>
@@ -222,8 +218,8 @@
 						    	<img src="assets/img/4.png" alt="Proyectos">
 						    </div>
 						    <div class="caption text-center">
-						    <h3><strong>LabCar</strong></h3>
-						    	<p>
+						    <h3 class="titulo"><strong>LabCar</strong></h3>
+						    	<p class="fuente-parrafos">
 						    		Proyecto de Laboratoria. Realizado con javaScript, CSS3 y HTML5.
 						    	</p>
 						    	<p>
@@ -243,7 +239,7 @@
 				<!-- contactos -->
 				<section id="contactame" class="contenido hidden">
 					<div class="jumbotron">
-						<h2 class="titulo-contactame text-center">Contáctame</h2>
+						<h2 class="titulo text-center">Gracias por llegar aquí</h2>
 						<form class="form-horizontal">
 						  <div class="form-group">
 						    <label for="nombre" class="col-sm-2 control-label">Nombre</label>
@@ -274,18 +270,16 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!-- creacion de modal -->
 		<div id="myNav" class="overlay">
 		  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
 		  <div class="overlay-content">
-		    <a href="/">Sobre mí</a>
-		    <a href="/habilidades">Mis habilidades</a>
-		    <a href="/proyectos">
+		    <a href="/" class="titulo">Sobre mí</a>
+		    <a href="/habilidades" class="titulo">Mis habilidades</a>
+		    <a href="/proyectos" class="titulo">
 		    	Mis Proyectos
 		    </a>
-		    <a href="/contactame">Contáctame</a>
+		    <a href="/contactame" class="titulo">Contáctame</a>
 		  </div>
 		</div>		
 	<!-- fin de modal -->
