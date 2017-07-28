@@ -33,7 +33,7 @@ body{
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
     font-size: 2em;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-right: 60px;
     padding-left: 60px;
 }
@@ -115,7 +115,7 @@ body{
   }
 }
 .div-foto{
-    margin-bottom: 10px;
+    margin-bottom: 50%;
 }
 
 .fa-twitter-square:before, .fa-github-square:before, 
@@ -149,7 +149,8 @@ body{
 .nombre{
   font-family: 'Lobster Two';
   font-size: 2em;
-  color: #4C3A15;
+  /*color: #4C3A15;*/
+  color: #5e0684;
 }
 .fuente-parrafos{
     font-family: 'Oswald', sans-serif;
@@ -191,7 +192,7 @@ body{
     display:block;
     margin-bottom:15px;
     width:100%;
-    background:#eee;
+    background:#cfc7c7;
     height:35px;
     border-radius:3px;
     -moz-border-radius:3px;
