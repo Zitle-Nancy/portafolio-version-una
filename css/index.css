@@ -39,6 +39,7 @@ body{
 }
 .titulo > a{
     font-size: 5.5rem;
+    text-decoration: none;
 }
 @media (max-width: 600px) {
   .texto-perfil {
@@ -295,15 +296,7 @@ body{
 }
 /*fin de trabajo portafolio*/
 /*contactame*/
-.fa-file-pdf-o:before{
-    color: red;
-    font-size: 5em;
-}
-@media (max-width: 600px) {
-  .fa-file-pdf-o{
-   font-size: 4em;
-  }
-}
+
 .archivo{
     margin-top: 30px;
 }
@@ -324,3 +317,5 @@ body{
   }
 }
 /*fin de contactame*/
+
+/*animaciones*/
