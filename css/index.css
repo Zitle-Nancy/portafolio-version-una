@@ -2,15 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Convergence');
 @import url('https://fonts.googleapis.com/css?family=Coda|Convergence|Kreon');
 @import url('https://fonts.googleapis.com/css?family=Actor|Convergence|Source+Code+Pro|Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,600,600i|Oswald');
 body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-    background-color: #f7f7f7;
+    background-color: #ECF0F1;
 }
 .cursor{
     cursor: pointer;
+}
+.titulo{
+    font-family: 'Francois One';
+    font-size: 4rem;
+}
+.formatos-iconos{
+    color:#1D314C;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tooltip-inner{
+    white-space: nowrap;
+    max-width: none;
+}
+.en-linea{
+    display: inline-block;
 }
 .texto-perfil{
     font-family: 'Convergence', sans-serif;
@@ -18,6 +36,10 @@ body{
     margin-top: 50px;
     padding-right: 60px;
     padding-left: 60px;
+}
+.texto-cv > a{
+    font-size: 3rem;
+    font-family: 'Francois One';
 }
 @media (max-width: 600px) {
   .texto-perfil {
@@ -32,15 +54,10 @@ body{
     background-color: #00b6b8;
 }
 #menu-comprimido{
-    font-size:5em;
+    font-size:4.5rem;
     cursor:pointer;
-    color: white;
 }
-@media (max-width: 600px) {
-  #menu-comprimido{
-    
-  }
-}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -82,6 +99,7 @@ body{
 /*segunda seccion foto y letras*/
 #sobre-mi{
     margin-top: 60px;
+    /*background-color:rgba(199,213,216,.4);*/
 }
 .foto{
     border-radius: 30%;
@@ -99,16 +117,15 @@ body{
 .div-foto{
     margin-bottom: 10px;
 }
-.iconos{
+/*.iconos{
     margin: 15px;
-}
-.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
-    font-size:3rem;
-    color: #129C97;
-}
-.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before{
-    font-size: 6rem;
-    color: white;
+}*/
+/*.fa-twitter:before, .fa-github:before, .fa-linkedin:before, .fa-wrench:before, .fa-code:before{
+    font-size:5rem;
+}*/
+.fa-twitter-square:before, .fa-github-square:before, .fa-linkedin-square:before, .fa-download:before{
+    font-size: 5rem;
+    /*margin: 0 15px 0 15px;*/
 }
 /*habilidades*/
 #habilidad, #texto-habilidad{
@@ -130,7 +147,7 @@ body{
 .nombre{
   font-family: 'Lobster Two';
   font-size: 2em;
-  color: #9d13c6;
+  color: #4C3A15;
 }
 @media (max-width: 600px) {
   .nombre {

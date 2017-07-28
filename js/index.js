@@ -45,6 +45,7 @@
 		$('.funcion-twitter').click(enviarTwitter);
 		$('.funcion-git').click(enviarGit);
 		$('.funcion-link').click(enviarLink);
+  		$('[data-toggle="tooltip"]').tooltip();
 	}
 	var openNav = function() {
 		// revisar
